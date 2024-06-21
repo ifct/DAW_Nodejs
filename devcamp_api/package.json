@@ -1,0 +1,22 @@
+{
+  "name": "devcamp_api",
+  "version": "1.0.0",
+  "description": "Api Campus Desarrollo Jose Enrique Rodriguez",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "JER",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "bundleDependencies": [
+    "nodemon"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
